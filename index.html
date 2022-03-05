@@ -11,14 +11,25 @@
     <h1>Cool Club Form</h1>
     <div class="parent-container">
       <p>Fill out the following information below</p>
-      <form action="">
+      <form action="" id="form1">
         <label for="#name">Enter name:</label>
         <input type="text" id="name" />
-        <br />
-        <br />
         <label for="#age">Enter age:</label>
         <input type="text" id="age" />
+
+        <label for="shoe1">Yeezy</label>
+        <input type="checkbox" id="shoe1" name="shoe1" value="Yeezy" />
+        <label for="shoe2">Nike</label>
+        <input type="checkbox" id="shoe2" name="shoe2" value="Nike" />
+        <label for="shoe3">Puma</label>
+        <input type="checkbox" id="shoe3" name="shoe3" value="Puma" />
+
+        <label for="">Please describe your self in one sentence.</label>
+        <input type="text" id="describe" />
       </form>
+      <button id="button1" type="submit" form="form1" value="Submit">
+        Submit
+      </button>
     </div>
   </body>
 </html>
